@@ -1,0 +1,1 @@
+const s=document.getElementById('navSearch');if(s){s.addEventListener('input',()=>{const q=s.value.toLowerCase();document.querySelectorAll('nav .navlinks a').forEach(a=>a.hidden=!a.textContent.toLowerCase().includes(q));});}
