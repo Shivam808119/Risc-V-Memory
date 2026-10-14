@@ -1,1 +1,0 @@
-document.addEventListener('DOMContentLoaded',()=>{const box=document.querySelector('#navSearch');if(box){box.addEventListener('input',()=>{const q=box.value.toLowerCase();document.querySelectorAll('.navlinks a').forEach(a=>a.hidden=!a.textContent.toLowerCase().includes(q));});}});
